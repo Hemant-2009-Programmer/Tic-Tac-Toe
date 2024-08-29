@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TIC TAC TOE </title>
+	<link rel="stylesheet" href="tic tac.css">
+</head>
+<body onload="loadPage()">
+	<div class="container">
+		<h1> <i> TIC TAC TOE </i> </h1>
+		<div class="box">
+			<div class="game">
+				<button class="gamebtn" onclick="startGame(this)"> </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				<button class="gamebtn" onclick="startGame(this)">  </button>
+				
+				<button class="resetbtn" onclick="resetGame()"> RESET GAME </button>
+			</div>
+			<div class="win">
+				<p class="score"> <i> SCORE BOARD </i> </p>
+				<div class="myt1 ga">
+					<p class="team"> <i> My Team  </i> </p>
+					<p class="team1 team2"> 0 </p>
+					<p class="o"><p>
+				</div>
+				<div class="oppt1 ga">
+					<p class="team"> <i> Opponent Team </i> </p>
+					<p class="team1 team3"> 0 </p>
+					<p class="x"> <p>
+				</div>
+				<p class="win1"></p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="tic tac.js"> </script>
+</body>
+</head>

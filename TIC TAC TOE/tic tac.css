@@ -1,0 +1,104 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	height:580px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("tic.png");
+	box-sizing:border-box;
+}
+.container h1{
+	font-size:40px;
+	font-family: sans-serif;
+	text-align:center;
+	color:white;
+	padding-top:20px;
+	text-decoration:underline;
+}
+.box {
+	display:flex;
+	flex-wrap:wrap;
+}
+.game{
+	text-align:center;
+	width:450px;
+	margin:20px 0px 0px 200px;
+}
+.gamebtn{
+	text-align:center;
+	height:110px;
+	width:110px;
+	margin:10px 5px;
+	border-radius:10px;
+	border:2px solid black;
+	font-size:70px;
+	vertical-align:top;
+	background-color:#F3FEB8;
+	cursor:pointer;
+}
+.resetbtn{
+	font-size:20px;
+	padding:10px 20px;
+	background-color:#478CCF;
+	border:2px solid black;
+	border-radius:20px;
+	color:white;
+	margin-top:20px;
+	cursor:pointer;
+}
+.win{
+	background-color:#6EACDA;
+	width:400px;
+	height:300px;
+	margin:60px 0px 0px 80px;
+	border-radius:10px;
+	padding:5px;
+	border:2px solid black;
+}
+.win p{
+	color:white;
+	font-family: sans-serif;
+	text-align:center;
+}
+.score{
+	font-size:40px;	
+	text-align:center;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.ga{
+	display:inline-block;
+	width:180px;
+	height:150px;
+	margin:20px 0px 0px 12px;
+	border-radius:10px;
+	vertical-align:top;
+}
+.myt1{
+	background-color:#F5004F;
+}
+.team{
+	font-size:22px;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.oppt1{
+	background-color:#5755FE;
+}
+.win1{
+	margin-top:30px;
+	font-size:30px;
+}
+.team1{
+	padding-top:25px;
+	font-size:30px;
+}
+.o{
+	font-size:30px;
+	padding-top:15px;
+}
+.x{
+	font-size:30px;
+	padding-top:15px;
+}
